@@ -13,6 +13,12 @@ This repository contains a PyTorch implementation of our NeruIPS2022 paper "Conv
 - scikit-learn 1.1.3
 - ogb 1.3.5
 
+### Installation
+
+```
+pip install -r requirements.txt
+```
+
 ## Datasets
 We provide the small datasets in the folder '/main/data'. The ogb datasets (ogbn-arxiv and ogbn-papers100M) and non-homophilous datasets (from [LINKX](https://arxiv.org/abs/2110.14446) ) can be downloaded automatically.
 
